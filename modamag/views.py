@@ -18,7 +18,7 @@ def home(request):
         'popular_products': popular_products,
         'newarrived_products': newarrived_products,
         'recommended_products': recommended_products,
-        'covers': covers,
+
         'reviews': reviews,
     }
     return render(request, 'home.html', context)
