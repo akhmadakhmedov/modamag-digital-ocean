@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls.conf import include
+from django.conf.urls import include
 from modamag import settings
 from django.urls import path
 from .import views
